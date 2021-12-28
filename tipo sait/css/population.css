@@ -1,0 +1,109 @@
+body {
+	color: #201b2d;
+	font-size: 15px;
+	padding: 0;
+	margin: 0;
+}
+	h1, h2, h3, h4, h5, h6 {
+	margin: 0;
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 900;
+}
+.container {
+	width: 70%;
+	margin: 0 auto;
+	}
+p {
+	font-family: 'Coming Soon', cursive;
+	line-height: 1.65em;
+}
+.menu{
+	width: 100%;
+	background: rgb(32,27,42);
+	background: linear-gradient(103deg, rgba(32,27,42,1) 0%, rgba(72,66,73,1) 100%);
+	display: flex;
+	justify-content: flex-end;
+	padding: 20px 0 40px 0;
+	font-size: 16px;
+}
+.menu p { 
+	padding-right: 20px;
+}
+.menu a {
+	color: #fff;
+	text-decoration: none;
+	font-family: 'Montserrat', sans-serif;
+}
+.menu a:hover {
+	border-bottom: 2px solid #fff;
+}
+header {
+	background: linear-gradient(103deg, rgba(32,27,42,1) 0%, rgba(72,66,73,1) 100%);
+	padding-bottom: 50px ;
+	margin-bottom: 40px;
+	color: #fff;
+}
+.headline{
+	display: flex;
+	justify-content: space-around;
+}
+h1 {
+	padding-top: 40px;
+}
+.population{
+	border-radius: 50%;
+}
+.wrapper {
+	display: flex;
+	justify-content: space-between;
+}
+figure {
+	padding-top: 60px;
+}
+figcaption {
+	text-align: center;
+}
+.statistics {
+	display: flex;
+	justify-content: space-between;
+	padding: 30px 0  ;
+}
+.offer {
+	width: 60%;
+}
+.img {
+	border-radius: 50%;
+}
+table {
+	border: 1px solid;
+	width: 100%;
+	margin: 40px 0;
+}
+td, th {
+	border: 1px solid;
+	text-align: center;
+	padding: 5px;
+}
+th {
+	background: #999899;
+	font-family: 'Coming Soon', cursive;
+}
+td {
+	font-family: 'Coming Soon', cursive;
+	line-height: 1.65em;
+}
+
+
+footer{
+background: rgb(32,27,42);
+background: linear-gradient(103deg, rgba(32,27,42,1) 0%, rgba(72,66,73,1) 100%);;
+margin-top: 40px;
+}
+.footer {
+	display: flex;
+	justify-content: space-between;
+}
+.foot {
+	color: #fff;
+	padding-top: 20px;
+}
